@@ -1,5 +1,9 @@
 -- Set Leader Key
 vim.g.mapleader = " "
+vim.g.nvcode_termcolors=256
+
+-- Quick nohlsearch
+vim.keymap.set("n", "<Leader><Esc>", "<cmd>noh<CR>")
 
 -- Yank and paste from clipboard
 vim.keymap.set("v", "<Leader>y", '"+y')
@@ -7,8 +11,8 @@ vim.keymap.set("v", "<Leader>p", '"+p')
 vim.keymap.set("n", "<Leader>p", '"+p')
 
 -- Quickfix
-vim.keymap.set("n", "<C-j>", "<cmd>cnext<CR>zzzv")
-vim.keymap.set("n", "<C-k>", "<cmd>cprev<CR>zzzv")
+-- vim.keymap.set("n", "<C-j>", "<cmd>cnext<CR>zzzv")
+-- vim.keymap.set("n", "<C-k>", "<cmd>cprev<CR>zzzv")
 
 -- Select the last changed text
 vim.keymap.set("n", "gp", "`[v`]")
@@ -22,3 +26,9 @@ vim.keymap.set("t", "<C-w>j", "<C-\\><C-n><C-w>j")
 vim.keymap.set("t", "<C-w>k", "<C-\\><C-n><C-w>k")
 vim.keymap.set("t", "<C-w>l", "<C-\\><C-n><C-w>l")
 vim.keymap.set("t", "<C-w>v", "<C-\\><C-n><C-w>v")
+
+-- Tmux navigator
+vim.keymap.set("n", "<C-k>", ":wincmd k<CR>")
+vim.keymap.set("n", "<C-j>", ":wincmd j<CR>")
+vim.keymap.set("n", "<C-h>", ":wincmd h<CR>")
+vim.keymap.set("n", "<C-l>", ":wincmd l<CR>")

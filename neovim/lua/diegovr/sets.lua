@@ -29,7 +29,8 @@ vim.opt.signcolumn = "no"
 vim.opt.nu = true
 vim.opt.relativenumber = true
 vim.opt.wrap = false
-vim.opt.termguicolors = true
+-- vim.opt.termguicolors = true
+vim.o.termguicolors = true
 vim.opt.scrolloff = 6
 vim.opt.showcmd = true
 vim.opt.showmode = true
@@ -46,3 +47,5 @@ vim.opt.wildignore:append({
     '**/node_modules/*',
     '**/dist/*',
 })
+-- colorscheme everforest
+vim.g.backgroud = "dark"
