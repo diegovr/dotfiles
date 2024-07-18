@@ -35,6 +35,7 @@ return {
 			--     dashboard.button("l", "󰒲   Lazy", ":Lazy<CR>"),
 			--     dashboard.button("q", "   Quit NVIM", ":qa<CR>"),
 			-- }
+			-- This is a test for local changes
 
 			alpha.setup(dashboard.opts)
 		end,
