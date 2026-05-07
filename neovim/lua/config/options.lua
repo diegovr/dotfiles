@@ -31,21 +31,30 @@ vim.opt.relativenumber = true
 vim.opt.wrap = false
 -- vim.opt.termguicolors = true
 vim.o.termguicolors = true
-vim.opt.scrolloff = 6
+vim.o.scrolloff = 15
 vim.opt.showcmd = true
 vim.opt.showmode = true
 vim.opt.isfname:append("@-@")
 -- ignore stuff
 vim.opt.wildignore:append({
-    '*.so',
-    '*.swp',
-    '*.pyc',
-    '*.out',
-    '*.out',
-    '**/__pycache__/*',
-    '**/.git/*',
-    '**/node_modules/*',
-    '**/dist/*',
+  "*.so",
+  "*.swp",
+  "*.pyc",
+  "*.out",
+  "*.out",
+  "**/__pycache__/*",
+  "**/.git/*",
+  "**/node_modules/*",
+  "**/dist/*",
 })
 -- colorscheme everforest
-vim.g.backgroud = "dark"
+-- vim.g.backgroud = "dark"
+-- add new filetypes to recognize them
+vim.filetype.add({
+  extension = {
+    jsonl = "jsonl",
+    jsonlines = "jsonl",
+  },
+})
+vim.g.lazyvim_python_lsp = "basedpyright"
+vim.g.lazyvim_python_ruff = "ruff"

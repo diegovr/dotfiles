@@ -1,0 +1,59 @@
+return {
+  --{
+  --  "ThePrimeagen/git-worktree.nvim",
+  --  name = "git-worktree",
+  --  lazy = false,
+  --},
+  --{
+  --  "nvim-telescope/telescope.nvim",
+  --  -- tag = "0.1.6",
+  --  keys = {
+  --    { "<leader>ff", "<cmd>Telescope find_files<cr>", desc = "Fuzzy find files in cwd" },
+  --    { "<Leader>fr", "<cmd>Telescope lsp_references<cr>", desc = "Show LSP references" },
+  --    { "<Leader>fg", "<cmd>Telescope live_grep<cr>", desc = "Find with grep" },
+  --    { "<Leader>fG", "<cmd>Telescope grep_string<cr>", desc = "Find string with grep" },
+  --    { "<Leader>fm", "<cmd>Telescope man_pages<cr>", desc = "Show Man Pages" },
+  --    { "<Leader>h", "<cmd>Telescope help_tags<cr>", desc = "Show all tags" },
+  --    { "<Leader>'", "<cmd>Telescope keymaps<cr>", desc = "Show all keymaps defined" },
+  --  },
+  --  opts = {
+  --    -- defaults = {
+  --    --   file_ignore_patterns = { "node_modules/.*", ".git/.*", "dist/.*" },
+  --    --   layout_strategy = "vertical",
+  --    --   layout_config = { height = 0.95, width = 0.65 },
+  --    -- },
+  --    dependencies = {
+  --      "nvim-lua/plenary.nvim",
+  --      { "nvim-telescope/telescope-fzf-native.nvim", build = "make" },
+  --      "nvim-tree/nvim-web-devicons",
+  --    },
+  --    defaults = {
+  --      file_ignore_patterns = {
+  --        "node_modules/.*",
+  --        "__pycache__/.*",
+  --        ".git/.*",
+  --        "build/.*",
+  --        "deps/.*",
+  --        "dist/.*",
+  --        "platforms/.*",
+  --        "hooks/.*",
+  --        "media/.*",
+  --        "tmp/.*",
+  --        "%.pyc",
+  --      },
+  --      prompt_prefix = "> ",
+  --      color_devicons = true,
+  --      layout_strategy = "vertical",
+  --      layout_config = {
+  --        height = 0.95,
+  --        width = 0.65,
+  --      },
+  --    },
+  --  },
+  --  config = function(_, opts)
+  --    local telescope = require("telescope")
+  --    telescope.setup(opts)
+  --    telescope.load_extension("fzf")
+  --  end,
+  --},
+}
