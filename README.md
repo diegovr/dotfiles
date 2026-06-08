@@ -1,15 +1,17 @@
 # dotfiles
 
-My personal configuration files for the tools I use every day — both for work and personal projects. This repository doubles as a development aid and a hobby: I tweak and refine these setups as I learn new ways to get the most out of my editor, terminal, and shell.
+Personal dotfiles for the tools I use day-to-day — both for professional work and personal projects. This repository serves as a development aid and, just as much, a hobby: a place to refine, experiment with, and master my editor, terminal, and shell setup.
 
 It is a living project. As I upgrade, swap, or rediscover a tool, its configuration is updated here to match.
 
-## Contents
+## Overview
 
-- **[Neovim](https://neovim.io/)** — editor configuration, plugin management, and language tooling
-- **[Tmux](https://github.com/tmux/tmux/wiki)** — terminal multiplexer setup with TPM and vim-tmux-navigator
-- **[Alacritty](https://alacritty.org/)** — terminal emulator configuration
-- **[Oh My Posh](https://ohmyposh.dev/)** — prompt themes for the shell
+| Section | Description |
+| --- | --- |
+| [Neovim](https://neovim.io/) | Editor configuration, plugin management, and language tooling |
+| [Tmux](https://github.com/tmux/tmux/wiki) | Terminal multiplexer setup with TPM and vim-tmux-navigator |
+| [Alacritty](https://alacritty.org/) | GPU-accelerated terminal emulator configuration |
+| [Oh My Posh](https://ohmyposh.dev/) | Prompt themes for the shell |
 
 ## Layout
 
